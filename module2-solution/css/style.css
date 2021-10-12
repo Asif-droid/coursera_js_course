@@ -1,0 +1,77 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+*{
+    font-family:cursive;
+}
+
+.box{
+    float: left;
+    
+    position: relative;
+    
+    background-color:cornflowerblue;
+    border: 3px solid black;
+    padding: 0px;
+    width:30%;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+p{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.little_box{
+    
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+    
+    
+    
+    
+    
+
+    
+    border: 2px solid black;
+}
+#chik{
+    background-color: coral;
+    color: black;
+}
+#beef{
+    background-color:red;
+    color: white;
+}
+#shushi{
+    background-color: yellow;
+    color:black;
+}
+@media (max-width:992px){
+    #ck{
+        width: 40%;
+    }
+    #bf{
+        width: 40%;
+    }
+    #sh{
+        width: 82.3%;
+    }
+}
+@media (max-width:768px){
+    #ck{
+        width: 80%;
+    }
+    #bf{
+        width: 80%;
+    }
+    #sh{
+        width: 80%;
+    }
+}
