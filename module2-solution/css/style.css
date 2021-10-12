@@ -5,6 +5,9 @@ h1{
 *{
     font-family:cursive;
 }
+body{
+    margin: 30px;
+}
 
 .box{
     float: left;
