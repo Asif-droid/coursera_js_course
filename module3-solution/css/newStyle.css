@@ -1,0 +1,75 @@
+header h1{
+    margin-left: 10px;
+    color: red;
+    font-family: cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+}
+header{
+    margin-top:20px;
+    background-color: yellow;
+    
+
+}
+@media(max-width:763px){
+    .row .box{
+        width: 100%;
+    }
+}
+@media(min-width:993px) and (max-width:1200px){
+    #navLinks{
+        visibility: hidden;
+    }
+
+}
+@media(min-width:1200px){
+    #navLinks{
+        visibility: hidden;
+    }
+
+}
+#navLinks{
+    float: right;
+}
+#navLinks a{
+    text-align: center;
+
+   
+
+}
+#navLinks a:hover{
+    color: blue;
+
+}
+.container{
+    position: relative;
+    
+}
+.title{
+    color:tomato;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+}
+.box{
+    height:800px;
+    
+    background-color: cadetblue;
+    
+    
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 5px;
+}
+.row{
+    /*margin-left: 150px;*/
+    display: flex;
+    justify-content: start;
+}
+.box h1{
+    color:black;
+    font-family: monospace;
+    text-align: center;
+}
