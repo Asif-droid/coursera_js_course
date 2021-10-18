@@ -1,17 +1,21 @@
-header h1{
-    margin-left: 10px;
-    color: red;
+header .navbar-brand{
+    margin-left: 0px;
+    color: red !important;
     font-family: cursive;
     font-size: 50px;
     display: flex;
     justify-content: left;
 }
 header{
+    position: relative;
     margin-top:20px;
+    
     background-color: yellow;
+    
     
 
 }
+
 @media(max-width:763px){
     .row .box{
         width: 100%;
@@ -29,9 +33,7 @@ header{
     }
 
 }
-#navLinks{
-    float: right;
-}
+
 #navLinks a{
     text-align: center;
 
@@ -42,8 +44,15 @@ header{
     color: blue;
 
 }
-.container{
+header .container{
     position: relative;
+    top:0px;
+    
+}
+.button-box{
+    position:absolute;
+    top:20px;
+    right: 50px;
     
 }
 .title{
